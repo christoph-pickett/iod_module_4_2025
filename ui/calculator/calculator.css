@@ -1,0 +1,36 @@
+#calculator-container {
+  border: solid black 1px;
+  background-color: antiquewhite;
+  height: 400px;
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+#display-value {
+  display: flex;
+  flex-direction: row;
+  width: 98vw;
+  height: 50px;
+  margin-bottom: 8px;
+  border: solid 1px black;
+  font-size: 28px;
+  justify-content: end;
+}
+
+#calculator-number-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#calculator-modifier-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.number-button {
+  width: 100px;
+}
